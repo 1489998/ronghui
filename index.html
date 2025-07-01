@@ -1,9 +1,202 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>网站建设中</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./libs/scrollReveal/scrollreveal.min.js"></script>
+  <link rel="stylesheet" href="./css/font.css">
+  <link rel="stylesheet" href="./libs/glide/glide.core.min.css">
+  <link rel="stylesheet" href="./libs/glide/glide.theme.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>试样展示页新展示页有限公司</title>
 </head>
-<body>
-    <h1>当前网站正在建设中，敬请期待！</h1>
+
+<body style="margin: 0; padding: 0; min-height: 100vh; display: flex; flex-direction: column;">
+
+  <!-- 导航 -->
+  <header style="position: fixed; top: 0; left: 0; right: 0; background: white; box-shadow: 0 2px 10px rgba(0,0,0,0.1); z-index: 1000; transition: none;">
+    <div class="logo" style="font-weight: bold; color: #0066CC;">测试页面</div>
+    <nav>
+      <a href="#home" style="color: black; text-decoration: none; margin: 0 10px;">首页</a>
+      <a href="#about-us" style="color: black; text-decoration: none; margin: 0 10px;">公司简介</a>
+      <a href="#products" style="color: black; text-decoration: none; margin: 0 10px;">核心产品</a>
+      <a href="#contact" style="color: black; text-decoration: none; margin: 0 10px;">联系我们</a>
+      <span style="margin-left: 20px; color: black; display: inline-block;">
+          中文|<a href="#" style="color: black; text-decoration: none; display: inline-block; margin-left: 0; padding-left: 0;">English</a>
+        </span>
+    </nav>
+    <!-- 小屏幕按钮 -->
+    <div class="burger">
+      <div class="burger-line1"></div>
+      <div class="burger-line2"></div>
+      <div class="burger-line3"></div>
+    </div>
+  </header>
+
+  <!-- 轮播图 -->
+  <div id="home" class="glide">
+    <div class="glide__track" data-glide-el="track">
+      <div class="glide__slides">
+        <!-- 第一张轮播图 -->
+        <div class="glide__slide">
+          <div class="slide-caption">
+            <h1>一大段话，配上轮播图片和广告语</h1>
+            <h3>
+              下面的广告语与文案配上轮播图片，让访问者有更好的体验。
+            </h3>
+            <!--  -->
+          </div>
+          <!-- 遮罩层 -->
+          <div class="backdrop"></div>
+          <img src="images/bg1.jpg" alt="">
+        </div>
+        <div class="glide__slide">
+          <div class="slide-caption">
+            <h1>十年高端网站设计经验，用创新点缀人生，让科技融入理想。</h1>
+            <h3>
+              科技创新大平台，智慧生活新引擎。依靠科技进步推进经济跨越式发展。用创新点缀人生，让科技融入理想
+            </h3>
+            
+          </div>
+          <!-- 遮罩层 -->
+          <div class="backdrop"></div>
+          <img src="images/bg.jpg" alt="">
+        </div>
+        <!-- 第二张轮播 -->
+        <div class="glide__slide">
+          <div class="slide-caption left">
+            <h1>科技改变世界</h1>
+            <h3>
+              立足科学发展，着力自主创新。加速科技进步，为全市经济社会发展提供有力支持。凝聚科技创意，成就创新梦想。
+            </h3>
+            
+          </div>
+          <!-- 遮罩层 -->
+          <div class="backdrop"></div>
+          <img src="images/15.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- 切换按钮 -->
+    <div class="glide__arrows" data-glide-el="controls">
+      <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+        < </button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+            >
+          </button>
+    </div>
+    <!-- 控制圆点 -->
+    <div class="glide__bullets" data-glide-el="controls[nav]">
+      <button class="glide__bullet" data-glide-dir="=0"></button>
+      <button class="glide__bullet" data-glide-dir="=1"></button>
+      <button class="glide__bullet" data-glide-dir="=2"></button>
+    </div>
+  </div>
+
+  <!-- 关于我们 -->
+  <div class="container-wrapper" style="flex: 1;">
+    <section id="about-us" class="about-us" style="padding: 80px 0; margin-top: 70px;">
+      <div style="display: flex; max-width: 1200px; margin: 0 auto; align-items: center;">
+        <div style="flex: 1; padding-right: 40px;">
+          <h2 style="font-size: 28px; margin-bottom: 20px; color: #333;">试样展示页新展示页有限公司</h2>
+          <p style="font-size: 16px; line-height: 1.8; color: #666;">
+            试样展示页新展示页有限公司是一家专注于新型材料研发、生产与销售的高科技企业。公司成立于2010年，位于美丽的海滨城市青岛，拥有现代化生产基地和先进的研发中心。我们致力于为建筑、汽车、电子等行业提供高品质的材料解决方案，产品涵盖高性能合金材料、新型复合材料、特种陶瓷材料等多个领域。
+            <br><br>
+            公司拥有一支由材料学专家、工程师组成的专业团队，与国内多所高校保持密切合作，不断推动技术创新和产品升级。我们始终坚持以质量为生命，以创新为动力，以客户为中心的经营理念，凭借卓越的产品性能和完善的售后服务，赢得了国内外客户的广泛认可。
+            <br><br>
+            未来，试样展示页新展示页有限公司将继续秉承"诚信、创新、卓越"的企业精神，致力于成为新材料领域的领军企业，为行业发展和社会进步贡献力量。
+          </p>
+        </div>
+        <div style="flex: 0 0 45%;">
+          <img src="images/11.jpg" alt="公司环境" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+        </div>
+      </div>
+    </section>
+
+    <!-- 核心产品 -->
+    <section id="products" class="showcases section-bg">
+      <h2 class="title1" style="text-align: center;">核心产品</h2>
+      <!-- 产品展示 -->
+      <div class="products" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px; padding: 40px;">
+        <div class="product-item">
+          <img src="images/11.jpg" alt="制冷合金钢管" style="width: 100%; height: 250px; object-fit: cover;">
+          <h3 style="text-align: center; margin-top: 15px;">制冷合金钢管</h3>
+        </div>
+        <div class="product-item">
+          <img src="images/12.jpg" alt="制冷合金铝管" style="width: 100%; height: 250px; object-fit: cover;">
+          <h3 style="text-align: center; margin-top: 15px;">制冷合金铝管</h3>
+        </div>
+        <div class="product-item">
+          <img src="images/13.jpg" alt="特殊包覆钢管" style="width: 100%; height: 250px; object-fit: cover;">
+          <h3 style="text-align: center; margin-top: 15px;">特殊包覆钢管</h3>
+        </div>
+        <div class="product-item">
+          <img src="images/14.jpg" alt="工程塑料" style="width: 100%; height: 250px; object-fit: cover;">
+          <h3 style="text-align: center; margin-top: 15px;">工程塑料</h3>
+        </div>
+        <div class="product-item">
+          <img src="images/16.jpg" alt="纳米材料" style="width: 100%; height: 250px; object-fit: cover;">
+          <h3 style="text-align: center; margin-top: 15px;">纳米材料</h3>
+        </div>
+        <div class="product-item">
+          <img src="images/17.jpg" alt="功能涂层材料" style="width: 100%; height: 250px; object-fit: cover;">
+          <h3 style="text-align: center; margin-top: 15px;">功能涂层材料</h3>
+        </div>
+        <div class="product-item">
+          <img src="images/18.jpg" alt="生物医用材料" style="width: 100%; height: 250px; object-fit: cover;">
+          <h3 style="text-align: center; margin-top: 15px;">生物医用材料</h3>
+        </div>
+        <div class="product-item">
+          <img src="images/19.jpg" alt="环保节能材料" style="width: 100%; height: 250px; object-fit: cover;">
+          <h3 style="text-align: center; margin-top: 15px;">环保节能材料</h3>
+        </div>
+      </div>
+    </section>
+
+
+  </div>
+
+
+  <!-- 联系我们及底部 -->
+  <footer id="contact" style="background: #0066cc; color: white; padding: 20px 0; scroll-margin-top: 70px;">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+      <!-- 左侧公司名称 -->
+      <div style="white-space: nowrap; border-right: 3px solid white; padding-right: 25px; margin-right: 25px; font-size: 20px; font-weight: bold;">试样展示页新展示页有限公司</div>
+      <!-- 右侧区域：导航栏、地址、二维码 -->
+      <div style="display: flex; flex-direction: column; align-items: center;">
+        <!-- 导航栏 -->
+        <div style="margin-bottom: 10px; text-align: center;">
+          <a href="#home" style="color: white; margin: 0 10px;">首页</a> | 
+          <a href="#about-us" style="color: white; margin: 0 10px;">公司简介</a> | 
+          <a href="#products" style="color: white; margin: 0 10px;">核心产品</a>
+        </div>
+
+        <!-- 地址和二维码水平布局 -->
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 400px;">
+          <!-- 地址信息 -->
+          <div style="text-align: left; line-height: 1.6; margin-right: 20px;">
+            <p>地址：银河省太阳系市地球区临港路2298号</p>
+            <p>邮箱：test@xin</p>
+            <p>固定电话：1234-56789101</p>
+            <p>移动电话：123-4567-8910</p>
+          </div>
+
+          <!-- 二维码（最右侧） -->
+          <div>
+            <img src="images/21.png" alt="微信二维码" style="width: 80px; height: 80px;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./libs/anime/anime.min.js"></script>
+  <script src="./libs/glide/glide.min.js"></script>
+  <script src="./libs/isotope/isotope.pkgd.min.js"></script>
+  <script src="./libs/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+  <script src="./js/index.js"></script>
 </body>
+
 </html>
