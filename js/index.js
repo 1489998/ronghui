@@ -19,7 +19,9 @@ window.addEventListener("scroll", () => {
 })
 
 // 鍒濆鍖栬疆鎾浘
-const glide = new Glide(".glide");
+const glide = new Glide(".glide", {
+  autoplay: 3000
+});
 const captionsEL = document.querySelectorAll(".slide-caption");
 
 

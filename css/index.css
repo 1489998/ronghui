@@ -199,6 +199,20 @@ section{
   font-size: 18px;
   color: var(--text-color-dark);
 }
+
+/* 核心产品图片悬停效果 */
+.product-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-item img {
+  transition: transform 0.3s ease;
+}
+
+.product-item img:hover {
+  transform: scale(1.1);
+}
 .feature-content{
   grid-area: content;
   color: var(--text-color-gray);
